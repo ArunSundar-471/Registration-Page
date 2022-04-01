@@ -1,0 +1,109 @@
+body {
+  /* background-color: #00ABE1; */
+  /* background-image: url(); */
+background-image: url(/images/businessman-pointing-his-presentation-futuristic-digital-screen.jpg);
+ 
+  /* background-position: unset; */
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+header {
+ background-color: rgb(0, 0, 0);
+ text-align: center;
+ padding: 3px;
+ margin: 15px;
+ color: rgb(251, 255, 0);
+}
+
+footer {
+ background-color:grey;
+ text-align: center;
+ padding: 3px;
+ margin: 15px;
+ color: rgb(232, 255, 255);
+ 
+}
+.flex-parent {
+   display: flex;
+ }
+ 
+ .jc-center {
+   justify-content: center;
+ }
+.button {
+   background-color: #4CAF50;
+   border: none;
+   color: white;
+  /* padding: 15px 32px;*/
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 20px;
+   margin: 4px 2px;
+   cursor: pointer;
+ }
+#sec-1 {
+ font-size: 1.5em;
+ height: auto;
+ width: auto;
+ padding: 50px;
+ font-family: 'Qahiri', sans-serif;
+ margin: 50px;
+ border: red 50px;
+ line-height: 50px;
+ clear: both;
+ overflow: hidden;
+ text-transform: capitalize;
+ text-decoration: wavy skyblue 10px;
+ letter-spacing: 0.4mm;
+ text-shadow: 2px 2px yellowgreen;
+ /* text-decoration: transparent; */
+/* background-image: url(/images/businessman-pointing-his-presentation-futuristic-digital-screen.jpg); */
+ /* font-style: oblique; */
+ /* color: rgb(28, 70, 0); */
+ color: #252669;
+}
+li{
+   text-align: left;
+   text-decoration: underline;
+}
+#sec-2 {
+ margin: 50px;
+ font-size: 1.8em;
+ height: 950px;
+ width: auto;
+ padding: 30px;
+color: #00458B ;
+ display: block;
+ border: cyan 50px groove;
+ overflow: auto;
+ /* font-family: "Sofia", sans-serif; */
+ font-family: 'Times New Roman', Times, serif;
+ font-weight: bolder;
+ text-indent: 00.4mm;
+ text-transform: lowercase;
+ line-height: 50px;
+}
+#first{
+   height: 250px;
+   float: left;
+   padding: 10px;
+   margin: 10px;
+   /* clear: both; */
+}
+#second{
+   padding: 10px;
+   margin: 10px;
+   float: right;
+}
+span {
+   float: left;
+   width: 0.7em;
+   font-size: 500%;
+   line-height: 80%;
+   display: inherit;
+   text-transform: capitalize;
+ }
